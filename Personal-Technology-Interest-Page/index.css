@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+.image {
+    display: flex;
+    float: left;
+    width: 250px;
+    height: auto;
+    border: solid;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.list {
+  border: solid;
+  list-style: square;
+  margin: 48px;
+  padding: 14px;
+}
+.li {
+    background-color:#bbb;
+    margin-left: 4px;
+    padding: .5rem .5rem 1.5rem .5rem;
+    
+}
+
+.intro {
+    background-color: palegreen;
+}
+
+.intro-header {
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    
+}
