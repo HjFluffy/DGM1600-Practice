@@ -1,6 +1,10 @@
-body {
+* {
     margin: 0;
-    padding: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
 }
 
 
@@ -27,8 +31,6 @@ header {
     background-color:rgba(187, 187, 187, 0.603);
     margin-left: 4px;
     padding: .5rem .5rem 1.5rem .5rem;
-    list-style-type: circle;
-
 }
 
 .intro {
