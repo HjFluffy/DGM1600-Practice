@@ -18,6 +18,15 @@ header {
     display:flex;
 }
 
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
 .image {
     display: flex;
     width: 250px;
@@ -26,19 +35,74 @@ header {
 
 .nameDate {
   display: flex;
-}
-.reason {
-    background-color:rgba(187, 187, 187, 0.603);
-    margin-left: 4px;
-    padding: .5rem .5rem 1.5rem .5rem;
+  justify-content: space-between;
+ padding-top: 1rem;
 }
 
-.intro {
-    background-color: palegreen;
+time {
+    font-size: x-large;
+    font-weight: bold;
 }
+
+.namedate > h1 {
+font-size: x-large;
+}
+
+.reason {
+    background-color:rgba(187, 187, 187, 0.603);
+    padding: 1rem;
+}
+
+
 
 .intro-header {
     background-color: bisque;
     padding: 20px;
     margin: 10px;
+}
+
+img {
+    width: 120px;
+}
+
+.learn {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.learn > figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2.5px;
+    max-width: 120px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+.vue {
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#explanation {
+    border: solid;
+    background-color:grey;
+    color: white;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#explanation > h3 {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    
 }
