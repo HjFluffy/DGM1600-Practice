@@ -10,16 +10,18 @@ header {
     background-color: antiquewhite;
     padding: 1rem;
 }
+.aboutMe {
+    display:flex;
+}
 
 .image {
     display: flex;
     width: 250px;
     height: auto;
-    border: solid;
 }
 
 .nameDate {
-  padding: 14px;
+  display: flex;
 }
 .reason {
     background-color:rgba(187, 187, 187, 0.603);
@@ -37,5 +39,4 @@ header {
     background-color: bisque;
     padding: 20px;
     margin: 10px;
-    
 }
