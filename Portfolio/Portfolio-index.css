@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: rgb(190, 185, 190);
@@ -74,6 +78,7 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+/* This is the end of the header section. Body elements included */
 
 .welcome-section {
   display: flex;
