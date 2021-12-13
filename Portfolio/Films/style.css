@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    border: 10px solid bisque;
+}
+
+
+
+figcaption {
+    text-align: center;
+    font-size: xx-large;
+    background-color:bisque;
+    padding-bottom: .5em;
+}
