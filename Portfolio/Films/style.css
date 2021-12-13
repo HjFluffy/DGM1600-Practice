@@ -1,4 +1,22 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
 
 img {
-    border: 10px solid bisque;
+    border: 10px solid #FFE81F;
 }
+
+figure {
+    background-color: #FFE81F;
+}
+
+figcaption {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #FFE81F;
+    padding-bottom: .5rem;
+}
+
