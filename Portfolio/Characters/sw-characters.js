@@ -12,12 +12,8 @@ const mainContent = document.querySelector('#main')
 
 document.body.insertBefore(header, mainContent)
 
-
-
 const maleCharacters = people.filter(person => person.gender === 'male')
 const femaleCharacters = people.filter(person => person.gender === 'female')
-
-    
 
 console.log(maleCharacters)
 
@@ -25,8 +21,8 @@ people.forEach((Element, index) => {
     
     const charFigure = document.createElement('figure')
     const charImg = document.createElement('img')
-    
-    charImg.src = `https://starwars-visualguide.com/assets/img/characters/${index + 1}.jpg`
+    const charNum = getLastNumber(Element.url)
+    charImg.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
     
     const charCaption = document.createElement('figcaption')
     charCaption.textContent = `${Element.name}`
@@ -36,3 +32,11 @@ people.forEach((Element, index) => {
     mainContent.appendChild(charFigure)
 })
 
+function getLastNumber(url){
+    let end = url.lastIndexOf('/')
+    let start = end - 2
+    if(url.charAt(start) === '/') {
+        start++
+    }
+    return  url.slice(start, end)
+}
